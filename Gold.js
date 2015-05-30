@@ -14,6 +14,7 @@ var Actor = EXTENDS(JSRoot, {
 	kind: null,
 	color: null,
 	points: 0,
+	test: 0,
 	INIT: function(x, y, kind, color) {
 		this.x = x;
 		this.y = y;
